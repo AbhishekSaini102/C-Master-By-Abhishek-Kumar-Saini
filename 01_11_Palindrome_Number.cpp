@@ -12,7 +12,7 @@ bool isPalindrome(int num)
         reversed = reversed * 10 + digit; // 1
         num /= 10;
     }
-    // return origional == reversed;
+    return origional == reversed;
 }
 int main()
 {
